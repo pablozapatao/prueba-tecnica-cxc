@@ -34,17 +34,16 @@ prueba-tecnica-cxc/
 ├── docs/
 │   ├── reglas_negocio.md         # reglas de negocio (trazadas a hallazgos)
 │   ├── modelo_conceptual.md      # arquitectura y diseño de la sábana
-│   ├── reporte_calidad.md        # reporte de calidad y EDA (Actividad 1)
+│   ├── reporte_calidad_actividad1.md  # reporte de calidad y EDA (Actividad 1)
 │   ├── informe_actividad2.md     # informe del modelo (Actividad 2)
 │   ├── informe_ejecutivo.md      # informe C-level (Actividad 3)
 │   ├── guia_powerbi.md           # guía de construcción del dashboard
-│   ├── estructura_dashboard.md   # estructura y medidas del dashboard
-│   └── preguntas_frecuentes_y_bitacora.md  # bitácora del proceso y glosario
+│   └── estructura_dashboard.md   # estructura y medidas del dashboard
 ├── notebooks/
 │   ├── 01_exploracion.ipynb      # exploración y control de calidad
 │   └── 02_modelo.ipynb           # modelo de probabilidad de pago
 ├── powerbi/
-│   └── dashboard.pbix            # tablero interactivo
+│   └── CxC-Bancolombia-PabloZapataOchoa.pbix   # tablero interactivo
 └── src/
     ├── pipeline.py               # pipeline POO que construye la sábana
     └── sql/
@@ -95,8 +94,8 @@ Abrir los notebooks en `notebooks/` para ver la exploración (Actividad 1) y el 
 
 ### 4. Ver el dashboard
 
-Abrir `powerbi/dashboard.pbix` en Power BI Desktop. Si se pide reconectar la fuente,
-apuntar a `data/sabana.parquet` (o `data/sabana.csv`).
+Abrir `powerbi/CxC-Bancolombia-PabloZapataOchoa.pbix` en Power BI Desktop. Si se pide
+reconectar la fuente, apuntar a `data/sabana.parquet` (o `data/sabana.csv`).
 
 ---
 

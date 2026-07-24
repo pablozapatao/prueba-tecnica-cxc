@@ -36,9 +36,7 @@ prueba-tecnica-cxc/
 │   ├── modelo_conceptual.md      # arquitectura y diseño de la sábana
 │   ├── reporte_calidad_actividad1.md  # reporte de calidad y EDA (Actividad 1)
 │   ├── informe_actividad2.md     # informe del modelo (Actividad 2)
-│   ├── informe_ejecutivo.md      # informe C-level (Actividad 3)
-│   ├── guia_powerbi.md           # guía de construcción del dashboard
-│   └── estructura_dashboard.md   # estructura y medidas del dashboard
+│   ├── informe_ejecutivo.md      # informe (Actividad 3)
 ├── notebooks/
 │   ├── 01_exploracion.ipynb      # exploración y control de calidad
 │   └── 02_modelo.ipynb           # modelo de probabilidad de pago
@@ -109,7 +107,7 @@ Python (POO), con transformaciones en SQL.
 **Actividad 2 — Modelo de probabilidad de pago.** Regresión logística para estimar la
 probabilidad de pago por obligación, con análisis de asociación previo, prevención de
 fuga de información y separación entrenamiento/prueba agrupada por titular. Se documenta
-con transparencia el alcance del modelo y las conclusiones de negocio.
+el alcance del modelo y las conclusiones de negocio.
 
 **Actividad 3 — Dashboard e informe ejecutivo.** Tablero en Power BI organizado por
 indicadores y contraindicadores de proceso, e informe ejecutivo con tono C-level.
